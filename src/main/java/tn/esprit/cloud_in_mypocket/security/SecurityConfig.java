@@ -89,7 +89,7 @@ public class SecurityConfig {
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
-        configuration.setAllowedOrigins(Arrays.asList("http://localhost:4200", "https://lawconnect-fcegbab9c2gsa8cb.francecentral-01.azurewebsites.net")); // Angular frontend
+        configuration.setAllowedOrigins(Arrays.asList("http://localhost:4200", "https://862d-74-220-27-36.ngrok-free.app")); // Angular frontend
         configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         configuration.setAllowedHeaders(Arrays.asList("*"));
         configuration.setAllowCredentials(true);
